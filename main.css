@@ -1,0 +1,119 @@
+body {
+    background-color: #0d0d26;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #12123a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hire-btn {
+    background-color: #ff00ff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about-img {
+    width: 60%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background-color: #1a1a40;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.contact input, 
+.contact textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #ff00ff;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #12123a;
+}
